@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00778103174F482500F5C479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00778102174F482500F5C479 /* UIKit.framework */; };
+		00778105174F482500F5C479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00778104174F482500F5C479 /* Foundation.framework */; };
+		00778107174F482500F5C479 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00778106174F482500F5C479 /* CoreGraphics.framework */; };
+		0077810D174F482500F5C479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0077810B174F482500F5C479 /* InfoPlist.strings */; };
+		0077810F174F482500F5C479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0077810E174F482500F5C479 /* main.m */; };
+		00778113174F482500F5C479 /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00778112174F482500F5C479 /* XYZAppDelegate.m */; };
+		00778115174F482500F5C479 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 00778114174F482500F5C479 /* Default.png */; };
+		00778117174F482500F5C479 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00778116174F482500F5C479 /* Default@2x.png */; };
+		00778119174F482500F5C479 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00778118174F482500F5C479 /* Default-568h@2x.png */; };
+		0077811C174F482500F5C479 /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0077811B174F482500F5C479 /* XYZViewController.m */; };
+		0077811F174F482500F5C479 /* XYZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0077811D174F482500F5C479 /* XYZViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		007780FF174F482500F5C479 /* New World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00778102174F482500F5C479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00778104174F482500F5C479 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00778106174F482500F5C479 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0077810A174F482500F5C479 /* New World-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "New World-Info.plist"; sourceTree = "<group>"; };
+		0077810C174F482500F5C479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0077810E174F482500F5C479 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00778110174F482500F5C479 /* New World-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "New World-Prefix.pch"; sourceTree = "<group>"; };
+		00778111174F482500F5C479 /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		00778112174F482500F5C479 /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		00778114174F482500F5C479 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		00778116174F482500F5C479 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		00778118174F482500F5C479 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0077811A174F482500F5C479 /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
+		0077811B174F482500F5C479 /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
+		0077811E174F482500F5C479 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYZViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		007780FC174F482500F5C479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00778103174F482500F5C479 /* UIKit.framework in Frameworks */,
+				00778105174F482500F5C479 /* Foundation.framework in Frameworks */,
+				00778107174F482500F5C479 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007780F6174F482500F5C479 = {
+			isa = PBXGroup;
+			children = (
+				00778108174F482500F5C479 /* New World */,
+				00778101174F482500F5C479 /* Frameworks */,
+				00778100174F482500F5C479 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00778100174F482500F5C479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				007780FF174F482500F5C479 /* New World.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00778101174F482500F5C479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00778102174F482500F5C479 /* UIKit.framework */,
+				00778104174F482500F5C479 /* Foundation.framework */,
+				00778106174F482500F5C479 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00778108174F482500F5C479 /* New World */ = {
+			isa = PBXGroup;
+			children = (
+				00778111174F482500F5C479 /* XYZAppDelegate.h */,
+				00778112174F482500F5C479 /* XYZAppDelegate.m */,
+				0077811A174F482500F5C479 /* XYZViewController.h */,
+				0077811B174F482500F5C479 /* XYZViewController.m */,
+				0077811D174F482500F5C479 /* XYZViewController.xib */,
+				00778109174F482500F5C479 /* Supporting Files */,
+			);
+			path = "New World";
+			sourceTree = "<group>";
+		};
+		00778109174F482500F5C479 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0077810A174F482500F5C479 /* New World-Info.plist */,
+				0077810B174F482500F5C479 /* InfoPlist.strings */,
+				0077810E174F482500F5C479 /* main.m */,
+				00778110174F482500F5C479 /* New World-Prefix.pch */,
+				00778114174F482500F5C479 /* Default.png */,
+				00778116174F482500F5C479 /* Default@2x.png */,
+				00778118174F482500F5C479 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		007780FE174F482500F5C479 /* New World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00778122174F482500F5C479 /* Build configuration list for PBXNativeTarget "New World" */;
+			buildPhases = (
+				007780FB174F482500F5C479 /* Sources */,
+				007780FC174F482500F5C479 /* Frameworks */,
+				007780FD174F482500F5C479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "New World";
+			productName = "New World";
+			productReference = 007780FF174F482500F5C479 /* New World.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		007780F7174F482500F5C479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Eric Gu";
+			};
+			buildConfigurationList = 007780FA174F482500F5C479 /* Build configuration list for PBXProject "New World" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 007780F6174F482500F5C479;
+			productRefGroup = 00778100174F482500F5C479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				007780FE174F482500F5C479 /* New World */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		007780FD174F482500F5C479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0077810D174F482500F5C479 /* InfoPlist.strings in Resources */,
+				00778115174F482500F5C479 /* Default.png in Resources */,
+				00778117174F482500F5C479 /* Default@2x.png in Resources */,
+				00778119174F482500F5C479 /* Default-568h@2x.png in Resources */,
+				0077811F174F482500F5C479 /* XYZViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007780FB174F482500F5C479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0077810F174F482500F5C479 /* main.m in Sources */,
+				00778113174F482500F5C479 /* XYZAppDelegate.m in Sources */,
+				0077811C174F482500F5C479 /* XYZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0077810B174F482500F5C479 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0077810C174F482500F5C479 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0077811D174F482500F5C479 /* XYZViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0077811E174F482500F5C479 /* en */,
+			);
+			name = XYZViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00778120174F482500F5C479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		00778121174F482500F5C479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00778123174F482500F5C479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "New World/New World-Prefix.pch";
+				INFOPLIST_FILE = "New World/New World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00778124174F482500F5C479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "New World/New World-Prefix.pch";
+				INFOPLIST_FILE = "New World/New World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		007780FA174F482500F5C479 /* Build configuration list for PBXProject "New World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00778120174F482500F5C479 /* Debug */,
+				00778121174F482500F5C479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00778122174F482500F5C479 /* Build configuration list for PBXNativeTarget "New World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00778123174F482500F5C479 /* Debug */,
+				00778124174F482500F5C479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 007780F7174F482500F5C479 /* Project object */;
+}
